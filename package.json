@@ -1,0 +1,25 @@
+{
+  "name": "colorfulness",
+  "version": "0.0.1",
+  "description": "Colorfulness algorithm inspired from Datta R., Joshi D., Li J., Wang J.Z.: Studying aesthetics in photographic images using a computational approach. ECCV (2006)",
+  "main": "index.js",
+  "scripts": {
+    "test": "test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piercus/colorfulness.git"
+  },
+  "keywords": [
+    "colorfulness",
+    "image",
+    "processing",
+    "opencv"
+  ],
+  "author": "Pierre Colle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piercus/colorfulness/issues"
+  },
+  "homepage": "https://github.com/piercus/colorfulness#readme"
+}
