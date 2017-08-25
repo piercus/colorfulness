@@ -4,7 +4,7 @@
   "description": "Colorfulness algorithm inspired from Datta R., Joshi D., Li J., Wang J.Z.: Studying aesthetics in photographic images using a computational approach. ECCV (2006)",
   "main": "index.js",
   "scripts": {
-    "test": "test/test.js"
+    "test": "xo && node test/basic.js"
   },
   "repository": {
     "type": "git",
@@ -12,6 +12,8 @@
   },
   "keywords": [
     "colorfulness",
+    "color",
+    "emd",
     "image",
     "processing",
     "opencv"
@@ -21,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/piercus/colorfulness/issues"
   },
-  "homepage": "https://github.com/piercus/colorfulness#readme"
+  "homepage": "https://github.com/piercus/colorfulness#readme",
+  "dependencies": {
+    "opencv": "git+https://github.com/piercus/node-opencv.git"
+  }
 }
