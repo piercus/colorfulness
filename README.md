@@ -37,14 +37,14 @@ npm test
 
 | File | Image | Colorfulness |
 |---|---|---|
-| mona.png | <img src="https://raw.githubusercontent.com/piercus/colorfulness/test/files/mona.png"  width="200px"/> | 60% |
-| car1.jpg | <img src="https://raw.githubusercontent.com/piercus/colorfulness/test/files/car1.jpg"  width="200px"/> | 69% |
-| stuff.png | <img src="https://raw.githubusercontent.com/piercus/colorfulness/test/files/stuff.png"  width="200px"/> | 72% |
-| neutral.png | <img src="https://raw.githubusercontent.com/piercus/colorfulness/test/files/neutral.png"  width="200px"/> | 100% |
-| amaro.png | <img src="https://raw.githubusercontent.com/piercus/colorfulness/test/files/amaro.png"  width="200px"/> | 90% |
-| FFFFFF.png | <img src="https://raw.githubusercontent.com/piercus/colorfulness/test/files/FFFFFF.png"  width="200px"/> | 56% |
-| 000000.png | <img src="https://raw.githubusercontent.com/piercus/colorfulness/test/files/000000.png"  width="200px"/> | 49% |
-| 00FFFF.png | <img src="https://raw.githubusercontent.com/piercus/colorfulness/test/files/00FFFF.png"  width="200px"/> | 57% |
+| mona.png | <img src="https://raw.githubusercontent.com/piercus/colorfulness/master/test/files/mona.png"  width="200px"/> | 60% |
+| car1.jpg | <img src="https://raw.githubusercontent.com/piercus/colorfulness/master/test/files/car1.jpg"  width="200px"/> | 69% |
+| stuff.png | <img src="https://raw.githubusercontent.com/piercus/colorfulness/master/test/files/stuff.png"  width="200px"/> | 72% |
+| neutral.png | <img src="https://raw.githubusercontent.com/piercus/colorfulness/master/test/files/neutral.png"  width="200px"/> | 100% |
+| amaro.png | <img src="https://raw.githubusercontent.com/piercus/colorfulness/master/test/files/amaro.png"  width="200px"/> | 90% |
+| FFFFFF.png | <img src="https://raw.githubusercontent.com/piercus/colorfulness/master/test/files/FFFFFF.png"  width="200px"/> | 56% |
+| 000000.png | <img src="https://raw.githubusercontent.com/piercus/colorfulness/master/test/files/000000.png"  width="200px"/> | 49% |
+| 00FFFF.png | <img src="https://raw.githubusercontent.com/piercus/colorfulness/master/test/files/00FFFF.png"  width="200px"/> | 57% |
 
 
 #### Non-symetric of measure
