@@ -1,6 +1,18 @@
 # Colorfulness
 
-This library is inspired from Datta R., Joshi D., Li J., Wang J.Z.: Studying aesthetics in photographic images using a computational approach. ECCV (2006)
+Node.js implementation of colorfulness using [node-opencv](https://github.com/peterbraden/node-opencv) binder for [OpenCV](http://opencv.org/).
+
+## Related research studies
+
+* From [Rubner (2000)][2], EMD is a good way to compare 2 images
+* From [Datta (2006)][1] has used a "perfectly colored" image BGR distribution to compare image with EMD
+  This is what they called the **colorfulness** measure.
+
+## Prerequisites
+
+You will need to make node-opencv work on your local machine, so havind, opencv, node, npm.
+
+## Histograms calculation
 
 Which image is the most colorfull ?
 This library will give you the answer in node.js !
@@ -46,8 +58,7 @@ npm test
 | 000000.png | <img src="https://raw.githubusercontent.com/piercus/colorfulness/master/test/files/000000.png"  width="200px"/> | 49% |
 | 00FFFF.png | <img src="https://raw.githubusercontent.com/piercus/colorfulness/master/test/files/00FFFF.png"  width="200px"/> | 57% |
 
-
-#### Non-symetric of measure
+#### Non-symetric of measure in BGR space
 
 Remark : FFFFFF.png (white image) is more colorful than 000000.png (black image), it is because the cost function is done in the "LUV" color space.
 
@@ -81,4 +92,8 @@ Matrix of distance in LUV space is looks like :
 | cube 7 | 0.66 | 0.55 | 0.44 | 0.37 | 0.73 | 0.55 | 0.21 | 0.00 | **3.51** |
 
 So pure "cube 0"-distribution (corresponding to FFFFFF image) will not be symetric with "cube 7"-distribution (corresponding to 000000 image).
+
 Pure "cube 4"-distribution (corresponding to 00FFFF image), is even more colorful.
+
+[1] http://infolab.stanford.edu/~wangz/project/imsearch/Aesthetics/ECCV06/datta.pdf
+[2] https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/rubner-jcviu-00.pdf
