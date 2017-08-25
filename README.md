@@ -4,8 +4,8 @@ Node.js implementation of colorfulness using [node-opencv](https://github.com/pe
 
 ## Related research studies
 
-* From [Rubner (2000)][2], EMD is a good way to compare 2 images
-* From [Datta (2006)][1] has used a "perfectly colored" image BGR distribution to compare image with EMD
+* From [Rubner 2000](http://infolab.stanford.edu/~wangz/project/imsearch/Aesthetics/ECCV06/datta.pdf), EMD is a good way to compare 2 images
+* From [Datta 2006](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/rubner-jcviu-00.pdf) has used a "perfectly colored" image BGR distribution to compare image with EMD
   This is what they called the **colorfulness** measure.
 
 ## Prerequisites
@@ -94,6 +94,3 @@ Matrix of distance in LUV space is looks like :
 So pure "cube 0"-distribution (corresponding to FFFFFF image) will not be symetric with "cube 7"-distribution (corresponding to 000000 image).
 
 Pure "cube 4"-distribution (corresponding to 00FFFF image), is even more colorful.
-
-[1] http://infolab.stanford.edu/~wangz/project/imsearch/Aesthetics/ECCV06/datta.pdf
-[2] https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/rubner-jcviu-00.pdf
