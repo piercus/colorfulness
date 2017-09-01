@@ -34,6 +34,23 @@ var colorfulness = require('colorfulness');
 colorfulness("example/image.png", function(err, res){  
   // res is a number of colorfullness between 0 (not colorfull) and 1 (colorfull)
 });
+
+// or with open cv lib
+
+var cv = require("opencv");
+cv.readImage("example/image.png", function(err, im){
+  if(err){
+    //handle error
+  }
+
+  colorfulness({
+    image : im
+  }, function(err, res){  
+    // res is a number of colorfullness between 0 (not colorfull) and 1 (colorfull)
+  });
+})
+
+
 ```
 
 ## Test
